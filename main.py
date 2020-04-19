@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+import json
 import random
 import re
-import json
-from typing import List, Tuple, Dict
+import sys
+from typing import Dict, List, Tuple
 
 import sox
 from pypinyin import Style, lazy_pinyin
@@ -51,7 +53,8 @@ def phonemes_to_audio(syllables: Tuple[str, str], voice_features: Dict, name: st
 
 
 if __name__ == "__main__":
-    vfs = load_voice_features()
-    syllables = hanzi_to_pinyin('动物之森也太可爱了吧！')
-    print(syllables)
-    phonemes_to_audio(syllables, vfs)
+    if len(sys.argv) > 1:
+        vfs = load_voice_features()
+        syllables = hanzi_to_pinyin(sys.argv[1])
+        print(syllables)
+        phonemes_to_audio(syllables, vfs)

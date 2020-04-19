@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/bin/bash
 
 sudo apt install sox -y
 sudo apt install libsox-fmt-all
