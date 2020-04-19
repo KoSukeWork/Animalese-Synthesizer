@@ -28,8 +28,8 @@ ubuntu
 
 ## 用到的工具
 
-[sox](http://sox.sourceforge.net/)
-[Audacity](https://www.audacityteam.org/)
++ [sox](http://sox.sourceforge.net/)
++ [Audacity](https://www.audacityteam.org/)
 
 ## TODO
 
@@ -38,5 +38,5 @@ ubuntu
 
 ## 参考资料
 
-[Pinyin chart](https://resources.allsetlearning.com/chinese/pronunciation/pinyin_chart)
-[音乐也有科学道理？Do、Re、Mi...都是如何确定的？李永乐老师讲音律](https://www.bilibili.com/video/BV124411e7Wk)
++ [Pinyin chart](https://resources.allsetlearning.com/chinese/pronunciation/pinyin_chart)
++ [音乐也有科学道理？Do、Re、Mi...都是如何确定的？李永乐老师讲音律](https://www.bilibili.com/video/BV124411e7Wk)
