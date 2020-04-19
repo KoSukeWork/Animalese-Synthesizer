@@ -31,6 +31,11 @@ ubuntu
 [sox](http://sox.sourceforge.net/)
 [Audacity](https://www.audacityteam.org/)
 
+## TODO
+
+1. 动物语没有还原出重轻老师调制的效果，算法仍需修改。
+2. 准备为所有村民调制声音特征，存储于`voice_features.json`。目前只有阿狸（Tom Nook）的特征参数。
+
 ## 参考资料
 
 [Pinyin chart](https://resources.allsetlearning.com/chinese/pronunciation/pinyin_chart)
