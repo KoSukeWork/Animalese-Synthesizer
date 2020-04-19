@@ -1,0 +1,9 @@
+{
+    "tom_nook": {
+        "pitch_shift_random_range": [
+            6,
+            12
+        ],
+        "tempo": 8
+    }
+}
